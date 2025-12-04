@@ -1,0 +1,28 @@
+{
+  "head__title": "Персональное портфолио",
+  "about__heading": "Приветствую! Меня зовут Олег",
+  "about__text": [
+    "Инженер-программист с опытом работы в IT более 5 лет, из них 4,5 года в должности Java-разработчика. В настоящее время расширяю свои компетенции в области full-stack разработки активно изучая frontend.",
+    "Вы можете посмотреть мои pet-проекты ",
+    "здесь"
+  ],
+  "projects__heading": "Проекты",
+  "project__title-1": "Мое CV",
+  "project__descrition-1": "Адаптивное CV с поддержкой русского и английского языка, и возможностью скачивания через Print",
+  "project__title-2": "TODO",
+  "project__descrition-2": "Интерактивный TODO list для ведения списка задач",
+  "project__title-3": "E-lib",
+  "project__descrition-3": "Электронная библиотека для хранения книг ссылок на видео и учебных статей",
+  "project__title-4": "Productly",
+  "project__descrition-4": "Учебный проект. Адаптивная верстка сайта по макету Figma совместно с преподавателем",
+  "project__title-5": "Сервис тестирования",
+  "project__descrition-5": "Микросервисное веб-приложение для проверки знаний",
+  "project__title-6": "News API",
+  "project__descrition-6": "Учебный проект. Миграция проекта с JS на TS, рефакторинг кода, настройка конфигурации (webpack, tsconfig, eslint)",
+  "project__technologies": "Технологии: ",
+  "project__link-preview": "Просмотр",
+  "project__link-git": "GitHub",
+  "footer__details__summary_open": "Нажмите, чтобы развернуть",
+  "footer__details__summary_close": "Нажмите, чтобы свернуть",
+  "copy-right": "2025 Олег Черноусов"
+}

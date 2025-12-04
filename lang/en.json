@@ -1,0 +1,28 @@
+{
+  "head__title": "Personal portfolio",
+  "about__heading": "Hello, I'm Oleg",
+  "about__text": [
+    "A Software Engineer with 5+ years of experience in the IT industry, including 4.5 years as a Java Software Engineer. Currently expanding expertise into full-stack development with active frontend practice.",
+    "You could view my pet projects ",
+    "here"
+  ],
+  "projects__heading": "Projects",
+  "project__title-1": "My CV",
+  "project__descrition-1": "Responsive and multilingual CV with support of saving to computer",
+  "project__title-2": "TODO",
+  "project__descrition-2": "Interactive TODO list",
+  "project__title-3": "E-lib",
+  "project__descrition-3": "Digital book library to handle books and bookmarks",
+  "project__title-4": "Productly",
+  "project__descrition-4": "Tutorial project. Website layout using Figma and a teacher's tutorial",
+  "project__title-5": "Test System",
+  "project__descrition-5": "Microservice application for testing",
+  "project__title-6": "News API",
+  "project__descrition-6": "Tutorial project. Migration from JS to TS including configuration of webpack, tsconfig, eslint, code refactoring",
+  "project__technologies": "Technologies: ",
+  "project__link-preview": "Preview",
+  "project__link-git": "GitHub",
+  "footer__details__summary_open": "Tap to open",
+  "footer__details__summary_close": "Tap to close",
+  "copy-right": "2025 Oleg Chernousov"
+}
