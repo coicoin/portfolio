@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper wrapper_centered header__wrapper">
+      <select class="change-lang" title="language">
+        <option class="option" value="en" selected>EN</option>
+        <option class="option" value="ru">RU</option>
+      </select>
+    </div>
+  </header>
+  <section class="about">
+    <div class="wrapper wrapper_centered about__wrapper">
+      <div class="about__content">
+        <img class="about__avatar" src="./assets/img/avatar.jpg" alt="avatar">
+        <div class="about__info">
+          <div class="about__info__text">
+            <h1 class="about__heading">Hello, I'm Oleg</h1>
+            <p class="about__text">A Software Engineer with 5+ years of experience in the IT industry, including 4.5
+              years as a Java Software Engineer. Currently expanding expertise into full-stack development with active
+              frontend practice.
+              <br>You could view my pet projects <a class="about__text-anchor" href="#projects">here</a> &crarr;
+            </p>
+          </div>
+          <div class="about__links">
+            <a class="about__link contact__ln" title="linkedin" target="_blank"
+              href="https://www.linkedin.com/in/oleg-chernousov">
+              <img class="ico ico-ln" src="./assets/icons/icons8-linkedin.svg" alt="Linkedin">
+            </a>
+            <a class="about__link contact__tg" title="telegram" target="_blank" href="https://t.me/o1100001001">
+              <img class="ico ico-tg" src="./assets/icons/icons8-telegram-logo.svg" alt="Telegram">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="projects" class="projects">
+    <div class="wrapper wrapper_centered projects__wrapper">
+      <h1 class="projects__heading">Projects</h1>
+      <div class="projects__container">
+        <div class="project">
+          <img class="project__image" src="./assets/img/projects/cv.png" alt="CV">
+          <div class="project__content">
+            <h2 class="project__title">My CV</h2>
+            <div class="project__info">
+              <p class="project__descrition">Responsive and multilingual CV with support of saving to computer</p>
+              <p class="project__technologies">
+                <span class="project__technologies_bold">Technologies: </span>
+                HTML, CSS, JS
+              </p>
+            </div>
+            <div class="project__links">
+              <a class="project__link project__link-preview" target="_blank"
+                href="https://coicoin.github.io/cv/">Preview</a>
+              <a class="project__link project__link-git" target="_blank" href="https://github.com/coicoin/cv">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img class="project__image" src="./assets/img/projects/default.jpg" alt="Todo">
+          <div class="project__content">
+            <h2 class="project__title">TODO</h2>
+            <div class="project__info">
+              <p class="project__descrition">Interactive TODO list</p>
+              <p class="project__technologies">
+                <span class="project__technologies_bold">Technologies: </span>
+                HTML, CSS, JS, ReactJS, Java, H2
+              </p>
+            </div>
+            <div class="project__links">
+              <a class="project__link project__link-preview project__link-hidden" target="_blank" href="#">Preview</a>
+              <a class="project__link project__link-git" target="_blank"
+                href="https://github.com/coicoin/todo">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img class="project__image" src="./assets/img/projects/e-lib.png" alt="E-lib">
+          <div class="project__content">
+            <h2 class="project__title">E-lib</h2>
+            <div class="project__info">
+              <p class="project__descrition">Digital book library to handle books and bookmarks</p>
+              <p class="project__technologies">
+                <span class="project__technologies_bold">Technologies: </span>
+                HTML, CSS, JS, ReactJS, Java, PostgreSQL
+              </p>
+            </div>
+            <div class="project__links">
+              <a class="project__link project__link-preview project__link-hidden" target="_blank" href="#">Preview</a>
+              <a class="project__link project__link-git" target="_blank"
+                href="https://github.com/coicoin/e-lib-backend">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img class="project__image" src="./assets/img/projects/productly.png" alt="Produclty">
+          <div class="project__content">
+            <h2 class="project__title">Productly</h2>
+            <div class="project__info">
+              <p class="project__descrition">Tutorial project. Website layout using Figma and a teacher's tutorial</p>
+              <p class="project__technologies">
+                <span class="project__technologies_bold">Technologies: </span>
+                HTML, SCSS, JS
+              </p>
+            </div>
+            <div class="project__links">
+              <a class="project__link project__link-preview" target="_blank"
+                href="https://coicoin.github.io/productly/">Preview</a>
+              <a class="project__link project__link-git" target="_blank"
+                href="https://github.com/coicoin/productly">GitHub</a>
+            </div>
+          </div>
+        </div>
+        <div class="project">
+          <img class="project__image" src="./assets/img/projects/default.jpg" alt="Test System">
+          <div class="project__content">
+            <h2 class="project__title">Test System</h2>
+            <div class="project__info">
+              <p class="project__descrition">Microservice application for testing</p>
+              <p class="project__technologies">
+                <span class="project__technologies_bold">Technologies: </span>
+                Java, Spring, Hibernate, PostgreSQL, Kafka, Docker, Testcontainers, Liquibase
+              </p>
+            </div>
+            <div class="project__links">
+              <a class="project__link project__link-preview project__link-hidden" target="_blank" href="#">Preview</a>
+              <a class="project__link project__link-git" target="_blank"
+                href="https://github.com/coicoin/user-service">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="wrapper wrapper_centered footer__wrapper">
+      <div class="footer__img-container">
+        <div id="footer__img-zoomer" class="footer__img-zoomer"></div>
+        <img id="footer__img" class="footer__img" src="./assets/img/keyboard-ekb-big.jpg" alt="Keyboard Ekaterinburg">
+        <p class="footer__img-title">Keyboard in Ekaterinburg</p>
+      </div>
+      <p class="copy-right">&copy; 2025 Oleg Chernousov</p>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+</body>
+
+</html>
