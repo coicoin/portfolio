@@ -10,7 +10,7 @@
   --font-h1-size: 3.2rem;
   --line-h1-height: 6.5rem;
   --font-h2-size: 2.4rem;
-  --font-h2-size: 3.5rem;
+  --line-h2-height: 3.5rem;
   --font-h3-size: 1.9rem;
   --line-h3-height: 2.4rem;
   --font-h4-size: 1.6rem;
@@ -19,9 +19,9 @@
   --line-height: 3.0rem;
   --supfont-size: 1rem;
 
-  --mobile-font-h1-size: 2.5rem;
+  --mobile-font-h1-size: 2.1rem;
   --mobile-line-h1-height: 4.5rem;
-  --mobile-font-h2-size: 2.1rem;
+  --mobile-font-h2-size: 1.8rem;
   --mobile-line-h2-height: 3.2rem;
   --mobile-font-size: 1.6rem;
   --mobile-line-height: 2.5rem;
@@ -94,6 +94,7 @@ h2 {
   font-weight: 500;
   font-size: var(--font-size);
   -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
   -moz-appearance: none;
   appearance: none;
   border: 1px solid transparent;
@@ -170,7 +171,6 @@ h2 {
     line-height: var(--mobile-line-height);
   }
 }
-
 
 .about__text-anchor {
   color: var(--text-color);
@@ -314,6 +314,14 @@ h2 {
   border-radius: 8px;
   height: 40px;
   align-content: center;
+  pointer-events: none;
+  visibility: hidden;
+  transition: .5s;
+}
+
+.project:hover .project__link {
+  visibility: visible;
+  pointer-events: auto;
 }
 
 @media (max-width: 430px) {
@@ -363,6 +371,14 @@ h2 {
   }
 }
 
+.footer__details__btn {
+  font-size: var(--font-h2-size);
+  line-height: var(--line-h2-height);
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
 .footer__img-container {
   position: relative;
   width: 100%;
@@ -387,7 +403,6 @@ h2 {
   width: 40%;
   height: 40%;
   z-index: 1;
-  pointer-events: none;
 }
 
 @media (max-width: 430px) {
