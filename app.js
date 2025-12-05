@@ -1,16 +1,28 @@
-
 /* zoomer */
 function magnify(imgId, zoomerId, zoom) {
   const img = document.getElementById(imgId);
   const zoomer = document.getElementById(zoomerId);
+  let isPaused = false;
 
   img.addEventListener('load', function () {
     zoomer.addEventListener("mousemove", moveMagnifier);
     img.addEventListener("mousemove", moveMagnifier);
     zoomer.addEventListener("touchmove", moveMagnifier);
     img.addEventListener("touchmove", moveMagnifier);
+    zoomer.addEventListener("click", toggleZoomer);
+
+    function toggleZoomer(e) {
+      isPaused = !isPaused;
+      if (isPaused) {
+        zoomer.style.opacity = '0.7';
+      } else {
+        zoomer.style.opacity = '1';
+      }
+    }
 
     function moveMagnifier(e) {
+      if (isPaused) return;
+      
       zoomer.style.backgroundImage = "url('" + img.src + "')";
       zoomer.style.backgroundRepeat = "no-repeat";
       zoomer.style.backgroundSize = `${img.width * zoom}px ${img.height * zoom}px`;
@@ -22,7 +34,6 @@ function magnify(imgId, zoomerId, zoom) {
       e.preventDefault();
       /* get x and y positions */
       let pos = getCursorPos(e);
-      console.log(pos);
       let x = pos.x;
       let y = pos.y;
       /* avoid overflow */
