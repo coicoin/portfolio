@@ -20,7 +20,8 @@
   "project__technologies": "Technologies: ",
   "project__link-preview": "Preview",
   "project__link-git": "GitHub",
-  "footer__details__btn": "Tap to open",
+  "footer__details__summary_open": "Tap to open",
+  "footer__details__summary_close": "Tap to close",
   "footer__img-title": "Keyboard in Ekaterinburg",
   "copy-right": "2025 Oleg Chernousov"
 }
