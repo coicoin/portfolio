@@ -21,6 +21,10 @@ function magnify(imgId, zoomerId, zoom) {
     }
 
     function moveMagnifier(e) {
+      if (e.type === "touchmove") {
+        isPaused = false;
+      }
+
       if (isPaused) return;
       
       zoomer.style.backgroundImage = "url('" + img.src + "')";

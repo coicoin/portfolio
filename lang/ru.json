@@ -20,7 +20,8 @@
   "project__technologies": "Технологии: ",
   "project__link-preview": "Просмотр",
   "project__link-git": "GitHub",
-  "footer__details__btn": "Нажмите, чтобы развернуть",
+  "footer__details__summary_open": "Нажмите, чтобы развернуть",
+  "footer__details__summary_close": "Нажмите, чтобы свернуть",
   "footer__img-title": "Клавиатура в Екатеринбурге",
   "copy-right": "2025 Олег Черноусов"
 }
